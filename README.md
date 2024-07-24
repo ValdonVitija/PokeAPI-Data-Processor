@@ -30,8 +30,8 @@ This tool is able to:
       ```bash
       git clone https://github.com/ValdonVitija/PokeAPI-Data-Processor.git
       ```
-  2. **Navigate to the Repository:** Change your working directory to the cloned repository:
-
+  2. **Navigate to the Repository:** 
+  
       ```bash
       cd PokeAPI-Data-Processor
       ```
@@ -58,6 +58,7 @@ This tool is able to:
     ```bash
     python3 -m src.main
     ```
+    
     You will see something like this: 
     ```bash
     /> python3 -m src.main
@@ -133,12 +134,12 @@ and do nothing with such groups.
 ### 2 Count the number of Pokémon in each group
 > [!NOTE]
 > The graphical result on this case is an interactive graph. To interact with it open the html file
-> in a browser and you will find the plotted graph
+> in a browser and you will find the plotted graph. Do this after you have cloned the repo locally.
 
 - **Graphical**: [View Interactive Graph](results/visual/pokemon_group_counts.html)
 - **CSV**: [View CSV 📄](results/csv/pokemon_group_counts.csv)
 
-### 3.1 Calculate the average base experience for each type of Pokémon
+### 3 Calculate the average base experience for each type of Pokémon
 
 - **Graphical**: [View Graph](results/visual/avg_base_experience.png)
 - **CSV**: [View CSV 📄](results/csv/avg_base_experience.csv)

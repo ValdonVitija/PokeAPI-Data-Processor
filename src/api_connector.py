@@ -1,36 +1,3 @@
-# import requests
-# from typing import Dict, List, Optional, Any
-
-
-# class PokeAPIConnector:
-#     def __init__(self, base_url: str = "https://pokeapi.co/api/v2/pokemon") -> None:
-#         self.base_url = base_url
-
-#     def fetch_all_pokemon(self) -> List[Dict[str, str]]:
-#         all_pokemon = []
-#         url = self.base_url
-#         # since there are a lot of pokemons and the api uses pagination,
-#         # we need to iteratively request each page until there are no more
-#         # pokemons left to retrieve
-#         response = requests.get(url)
-#         if response.status_code == 200:
-#             data = response.json()
-#             results = data.get("results", [])
-#             all_pokemon.extend(results)
-#             url = data.get("next")
-
-#         return all_pokemon
-
-#     def fetch_pokemon_details(self, name) -> Optional[Dict[str, Any]]:
-#         url = f"{self.base_url}/{name}/"
-#         response = requests.get(url)
-#         if response.status_code == 200:
-#             return response.json()
-#         else:
-#             print(f"Error fetching Pokémon details for {name}: {response.status_code}")
-#             return None
-
-
 import requests
 from typing import Dict, List, Optional, Any
 from tqdm import tqdm
