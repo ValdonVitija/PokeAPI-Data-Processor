@@ -135,7 +135,7 @@ and do nothing with such groups.
 > The graphical result on this case is an interactive graph. To interact with it open the html file
 > in a browser and you will find the plotted graph
 
-- **Graphical**: [View Interactive Graph](results/visual/pokemon_barplot_interactive.html)
+- **Graphical**: [View Interactive Graph](results/visual/pokemon_group_counts.html)
 - **CSV**: [View CSV 📄](results/csv/pokemon_group_counts.csv)
 
 ### 3.1 Calculate the average base experience for each type of Pokémon
